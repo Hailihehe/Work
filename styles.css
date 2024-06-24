@@ -1,0 +1,471 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('Fonts/Jost-Regular.woff2') format('woff2'),
+        url('Fonts/Jost-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Jost';
+    font-weight: 500;
+    color: #1B1B1D;
+    background-color: #EEEFF1;
+}
+
+/* Intro page  */
+/*                */
+
+/* Navigation bar */
+
+.introPage {
+    background-color: #EEEFF1;
+    height: 1200px;
+}
+
+.navigation {
+    width: auto;
+    height: 60px;
+    padding: 24px 80px;
+    justify-content: space-between;
+    display: flex;
+}
+
+/* Nav */
+
+.navLogo {
+    height: 100%;
+    width: 150px;
+    object-fit: fill;
+}
+
+.navButtons {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navButton{
+    text-decoration: 0;
+    color: #1B1B1D;
+    margin: auto 0px;
+}
+
+.shoppingButton {
+    text-decoration: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: #FFF;
+    display: flex;
+    margin: auto 0;
+}
+
+.buyGift {
+    text-decoration: 0;
+    width: 170px;
+    height: 25px;
+    border-radius: 50px;
+    padding: 15px 25px;
+    background-color: #1B1B1D;
+    text-align: center;
+    color: #FFF;
+}
+
+/*  Overview  */
+
+.overview {
+    height: 800px;
+    margin: 80px 80px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.leftBox {
+    width: 50%;
+}
+
+.overSlogan {
+    font-size: 150px;
+    font-weight: 800;
+    line-height: 110%;
+    margin: 0;
+}
+
+.overDescription {
+    color: #64646A;
+    font-size: 40px;
+}
+
+.overButtons {
+    height: 10%;
+    display: flex;
+}
+
+.overButtons * {
+    font-weight: 700;
+    margin: auto 0;
+}
+
+.downloadButton {
+    text-decoration: 0;
+    width: 190px;
+    height: 25px;
+    background-color: #1B1B1D;
+    color: #FFF;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.shopCoffeeButton {
+    text-decoration: underline;
+    color: #1B1B1D;
+}
+
+
+.qualityAssertion {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Menu */
+/*      */
+
+.menu {
+    padding: 80px;
+    height: 1000px;
+    text-align: center;
+    background-image: linear-gradient(#FFF,#EEEFF1);
+}
+
+.menuHead {
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.menuDescription {
+    font-size: 30px;
+    color: #64646A;
+    margin-bottom: 100px;
+}
+
+.menuOptions {
+    width: 100%;
+    height: 520px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuOptions * {
+    background-color: #FFF;
+    width: 300px;
+}
+
+.option {
+    padding: 20px 30px;
+    border-radius: 25px;
+    display: inline;
+}
+
+.option img {
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+}
+
+.option p {
+    margin: 5px;
+}
+
+.optionHeader {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.optionDescription {
+    text-align: left;
+    font-size: 25px;
+    color: #64646A;
+}
+
+.optionButton {
+    display: inline-block;
+    text-decoration: 0;
+    width: 150px;
+    height: 25px;
+    border-radius: 50px;
+    padding: 15px 25px;
+    background-color: #1B1B1D;
+    color: #FFF;
+}
+
+/* Order coffee */
+/*              */
+
+.order {
+    padding: 80px;
+    height: 650px;
+    display: flex;  
+}
+
+.orderBox {
+    width: 40%;
+
+}
+
+.orderHead {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.orderDescription {
+    font-size: 28px;
+    margin: 0;
+    margin-bottom: 50px;
+    color: #64646A;
+}
+
+.orderButton {
+    display: inline-block;
+    text-align: center;
+    text-decoration: 0;
+    width: 150px;
+    height: 25px;
+    border-radius: 50px;
+    padding: 15px 25px;
+    background-color: #1B1B1D;
+    color: #FFF;
+}
+
+/* Customer reviews */
+/*                  */
+
+.review {
+    padding: 0 80px;
+    height: 1100px;
+}
+
+.reviewHeader {
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.reviewAvg {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-bottom: 100px;
+}
+
+.rating {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.ratingDescription {
+    font-size: 20px;
+    margin: 0;
+    color: #64646A;
+}
+
+.reviewScroll {
+    display: flex;
+    justify-content: center;
+}
+
+.reviewCustomer {
+    margin: 0 50px;
+    height: 700px;
+    width: 500px;
+    border-radius: 25px;
+    background-color: #FFF;
+}
+
+.customerImage{
+    border-radius: 25px 25px 0 0;
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.reviewArrow {
+    background-color: #FFF;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    margin: auto 0;
+    display: flex;
+}
+
+.reviewArrow img {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.customerInfo {
+    padding: 25px;
+    height: 40%;
+}
+
+.customerInfo img {
+    width: 120px;
+    height: 25px;
+}
+
+.customerInfo div p {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 0;
+    margin-right: 40px;
+}
+
+.customerComment {
+    font-size: 22px;
+    font-weight: 500;
+    color: #1B1B1D;
+    margin-top: 40px;
+}
+
+/* Website end */
+/*             */
+
+.companyInfo {
+    padding: 80px 80px 0 80px;
+    height: 1000px;
+} 
+
+.companyInfo hr {
+    border: 1px solid #1B1B1D;
+    opacity: 10%;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+
+}
+
+.topContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    padding: 0 80px;
+    margin-bottom: 80px;
+}
+
+.bottomContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    padding: 0 80px;
+}
+
+.bottomSubContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoHead {
+    font-size: 60px;
+    font-weight: 700;
+    color: #1B1B1D;
+    margin: 40px 0;
+}
+
+.infoDescription {
+    font-size: 30px;
+    color: #64646A;
+    margin: 40px 0;
+}
+
+.findCafe {
+    text-decoration: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1B1B1D;
+    margin: auto 0;
+}
+
+.contactInfo {
+    display: flex;
+    margin: 25px 0;
+}
+
+.contactInfo  p{
+    margin: 0;
+}
+
+.contactIcon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
+    border-radius: 100%;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.contactInfoEtc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emailForm {
+    margin: 30px 0;
+    height: 30px;
+    border-radius: 50px;
+    border: 0;
+    color: #64646A;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50px;
+}
+.emailButton {
+    margin: 30px 0;
+    background-color: #1B1B1D;
+    width: 120px;
+    height: 30px;
+    padding: 15px;
+    color: white;
+    text-decoration: 0;
+    text-align: center; 
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.companyInfoEtc {
+    padding: 0 80px;
+}
+.ending {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.ending * {
+    margin: auto 0;
+    font-size: 20px;
+    text-decoration: 0;
+    color: #64646A;
+}
